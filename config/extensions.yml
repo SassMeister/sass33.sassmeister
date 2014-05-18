@@ -1,7 +1,7 @@
 ---
 Base.Sass:
   :gem: base.sass
-  :version: 1.2.0
+  :version: 1.3.0
   :import:
   - base.sass/*
   :fingerprint: base.sass
@@ -126,7 +126,7 @@ Fittext:
   :homepage: http://www.bookcasey.com/fittext/
 Flint:
   :gem: flint-gs
-  :version: 1.3.0
+  :version: 1.3.1 (was 1.3.0)
   :import:
   - flint
   :fingerprint: flint
