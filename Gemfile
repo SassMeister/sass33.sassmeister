@@ -25,18 +25,18 @@ group :application do
   gem 'base.sass'
   gem 'flint-gs'
   gem 'bourbon-compass'
-  gem 'breakpoint', "~> 2.4.1"
+  gem 'breakpoint'
   gem 'sassy-buttons'
-  gem 'singularitygs', "~> 1.2.0.rc.1"
+  gem 'singularitygs'
   gem 'stipe'
   gem 'susy'
   gem 'neat-compass'
   gem 'harsh'
-  gem 'toolkit', "~> 2.0.0.alpha.3"
+  gem 'toolkit'
   gem 'color-schemer'
   gem 'css-slideshow'
   gem 'fancy-buttons'
-  gem 'modular-scale', "~> 2.0.0.alpha4"
+  gem 'modular-scale'
   gem 'responsive-sass'
   gem 'salsa'
   gem 'fittext'
@@ -57,14 +57,14 @@ group :application do
   gem 'compass-placeholders'
   gem 'true'
   gem 'SassyLists'
-  gem 'sassy-maps', "~> 0.3.1"
+  gem 'sassy-maps'
   gem 'bitters-compass'
   gem 'ceaser-easing'
   gem 'compass-yiq-color-contrast'
   gem 'bootstrap-sass'
   gem 'SassyJSON'
   gem 'SassyCast'
-  gem 'singularity-extras', "~> 1.0.0.alpha.1"
+  gem 'singularity-extras', "~> 1.0.0.alpha.3"
   gem 'responsive-modular-scale'
   gem 'SassyStrings'
   gem 'scut'
