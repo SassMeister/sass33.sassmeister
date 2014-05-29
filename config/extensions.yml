@@ -135,7 +135,7 @@ Foundation:
   :bower: zurb/bower-foundation
   :paths:
   - foundation/scss
-  :version: 5.2.2
+  :version: 5.2.3
   :import:
   - foundation
   :fingerprint: foundation*
