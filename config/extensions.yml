@@ -82,7 +82,7 @@ Color Schemer:
   :homepage: https://github.com/scottkellum/color-schemer
 Compass:
   :gem: compass
-  :version: 1.0.0.alpha.18
+  :version: 1.0.0.alpha.19
   :import:
   - compass
   :fingerprint: (compass|compass/*)

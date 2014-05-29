@@ -56,13 +56,13 @@ GEM
     coderay (1.1.0)
     color-schemer (0.2.8)
       compass-blend-modes (~> 0.0.2)
-    compass (1.0.0.alpha.18)
+    compass (1.0.0.alpha.19)
       chunky_png (~> 1.2)
-      compass-core (~> 1.0.0.alpha.17)
-      compass-import-once (~> 1.0.2)
+      compass-core (~> 1.0.0.alpha.19)
+      compass-import-once (~> 1.0.3)
       json
       listen (~> 1.1.0)
-      sass (~> 3.3.0.rc.3)
+      sass (>= 3.3.0, < 3.5)
     compass-blend-modes (0.0.2)
       compass
     compass-core (1.0.0.alpha.19)
@@ -209,7 +209,7 @@ DEPENDENCIES
   breakup
   ceaser-easing
   color-schemer
-  compass (= 1.0.0.alpha.18)
+  compass (~> 1.0.0.alpha.18)
   compass-blend-modes
   compass-inuit
   compass-photoshop-drop-shadow
