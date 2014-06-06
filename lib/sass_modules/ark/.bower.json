@@ -1,0 +1,13 @@
+{
+  "name": "ark",
+  "homepage": "https://github.com/drewbolles/ark",
+  "_release": "90de3d20d9",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "90de3d20d958507fdcb0544c539fb1a11708a79c"
+  },
+  "_source": "https://github.com/drewbolles/ark.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/drewbolles/ark.git"
+}
