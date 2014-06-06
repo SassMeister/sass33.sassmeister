@@ -1,3 +1,8 @@
+SassyBitwise:
+  :gem: SassyBitwise 
+  :import:
+    - SassyBitwise
+  :fingerprint: SassyBitwise
 Ark:
   :bower: ark
   :import:

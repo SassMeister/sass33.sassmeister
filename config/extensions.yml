@@ -3,7 +3,7 @@ Ark:
   :bower: ark
   :paths:
   - ark
-  :version: 90de3d20d9
+  :version: 6f37846bae
   :import:
   - ark/ark
   :fingerprint: (ark|ark/*)
@@ -280,6 +280,13 @@ Sassy Text Shadow:
   - sassy-text-shadow
   :fingerprint: sassy-text-shadow
   :homepage: http://sassymothereffingtextshadow.com
+SassyBitwise:
+  :gem: SassyBitwise
+  :version: 1.1.1
+  :import:
+  - SassyBitwise
+  :fingerprint: SassyBitwise
+  :homepage: http://github.com/HugoGiraudel/SassyBitwise
 SassyCast:
   :gem: SassyCast
   :version: 1.0.0

@@ -17,6 +17,9 @@ GEM
     Sassifaction (0.0.4)
       compass (>= 0.12.1)
       sass (>= 3.2.0)
+    SassyBitwise (1.1.1)
+      compass (>= 1.0.0.alpha.18)
+      sass (>= 3.3)
     SassyCast (1.0.0)
     SassyJSON (1.1.8)
     SassyLists (1.0.0)
@@ -193,6 +196,7 @@ PLATFORMS
 
 DEPENDENCIES
   Sassifaction
+  SassyBitwise
   SassyCast
   SassyJSON
   SassyLists
