@@ -17,7 +17,7 @@ Base.Sass:
   :homepage: https://github.com/jsw0528/base.sass
 Bitters:
   :gem: bitters-compass
-  :version: 0.9.3
+  :version: 0.10.0
   :import:
   - bourbon/bourbon
   - neat/neat
