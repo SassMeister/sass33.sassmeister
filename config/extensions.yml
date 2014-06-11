@@ -3,11 +3,11 @@ Ark:
   :bower: ark
   :paths:
   - ark
-  :version: 6f37846bae
+  :version: 0.2.0
   :import:
   - ark/ark
   :fingerprint: (ark|ark/*)
-  :homepage: 
+  :homepage: https://github.com/drewbolles/ark
 Base.Sass:
   :gem: base.sass
   :version: 1.3.2
