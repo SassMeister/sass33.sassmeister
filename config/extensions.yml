@@ -153,7 +153,7 @@ Garnish:
   :bower: garnish
   :paths:
   - garnish/src
-  :version: 0.2.0
+  :version: 0.2.1
   :import:
   - garnish
   :fingerprint: garnish
@@ -375,7 +375,7 @@ Susy:
   :homepage: http://susy.oddbird.net/
 Toolkit:
   :gem: toolkit
-  :version: 2.3.0
+  :version: 2.4.0
   :import:
   - toolkit
   :fingerprint: toolkit
