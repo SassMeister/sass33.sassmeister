@@ -54,7 +54,7 @@ Breakpoint:
   :homepage: https://github.com/Team-Sass/breakpoint
 Breakpoint Slicer:
   :gem: breakpoint-slicer
-  :version: '1.3'
+  :version: 1.3.4
   :import:
   - breakpoint-slicer
   :fingerprint: breakpoint-slicer
