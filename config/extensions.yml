@@ -10,7 +10,7 @@ Ark:
   :homepage: https://github.com/drewbolles/ark
 Base.Sass:
   :gem: base.sass
-  :version: 1.3.2
+  :version: 1.3.3
   :import:
   - base.sass/*
   :fingerprint: base.sass
