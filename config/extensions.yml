@@ -375,7 +375,7 @@ Susy:
   :homepage: http://susy.oddbird.net/
 Toolkit:
   :gem: toolkit
-  :version: 2.4.0
+  :version: 2.5.0
   :import:
   - toolkit
   :fingerprint: toolkit
