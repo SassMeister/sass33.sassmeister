@@ -33,7 +33,7 @@ Blend Modes:
   :homepage: https://github.com/heygrady/scss-blend-modes
 Bootstrap Sass:
   :gem: bootstrap-sass
-  :version: 3.1.1.1
+  :version: 3.2.0.0
   :import:
   - bootstrap
   :fingerprint: (bootstrap|bootstrap/*)
@@ -135,7 +135,7 @@ Fittext:
   :homepage: http://www.bookcasey.com/fittext/
 Flint:
   :gem: flint-gs
-  :version: 1.3.6
+  :version: 1.4.0
   :import:
   - flint
   :fingerprint: flint
