@@ -91,7 +91,7 @@ Color Schemer:
   :homepage: https://github.com/scottkellum/color-schemer
 Compass:
   :gem: compass
-  :version: 1.0.0.alpha.19
+  :version: 1.0.0.alpha.20
   :import:
   - compass
   :fingerprint: (compass|compass/*)
