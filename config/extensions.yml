@@ -217,11 +217,11 @@ Photoshop Drop Shadow:
   :homepage: https://github.com/heygrady/compass-photoshop-drop-shadow
 Quotation Marks:
   :gem: quotation-marks
-  :version: 0.1.0
+  :version: 0.1.1
   :import:
   - quotation-marks
   :fingerprint: quotation-marks
-  :homepage: ''
+  :homepage: http://quotation-marks.org
 Responsive Calculator:
   :gem: rwdcalc
   :version: 0.0.2
