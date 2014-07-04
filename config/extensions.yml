@@ -186,6 +186,15 @@ Jacket:
   - jacket
   :fingerprint: jacket
   :homepage: http://github.com/robwierzbowski/jacket
+MathSass:
+  :bower: mathsass
+  :paths:
+  - mathsass/dist
+  :version: 0.9.3
+  :import:
+  - MathSass
+  :fingerprint: MathSass
+  :homepage: http://github.com/terkel/mathsass
 Modular Scale:
   :gem: modular-scale
   :version: 2.0.5

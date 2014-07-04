@@ -1,0 +1,6 @@
+@import 'MathSass';
+
+.test {
+  pi: $PI;
+  font-size: fact(4);
+}

@@ -1,3 +1,10 @@
+MathSass:
+  :bower: mathsass
+  :import: 
+    - MathSass
+  :fingerprint: MathSass
+  :paths:
+    - mathsass/dist
 SassyBitwise:
   :gem: SassyBitwise 
   :import:
