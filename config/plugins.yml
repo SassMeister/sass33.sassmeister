@@ -1,8 +1,8 @@
 MathSass:
   :bower: mathsass
   :import: 
-    - MathSass
-  :fingerprint: MathSass
+    - math
+  :fingerprint: math
   :paths:
     - mathsass/dist
 SassyBitwise:

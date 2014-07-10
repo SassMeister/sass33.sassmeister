@@ -1,7 +1,7 @@
 {
   "name": "mathsass",
   "title": "MathSass",
-  "version": "0.9.3",
+  "version": "0.9.5",
   "description": "A Sass implementation of mathematical functions.",
   "keywords": [
     "sass",
@@ -26,7 +26,7 @@
       "url": "http://pascalduez.me/"
     }
   ],
-  "main": "dist/MathSass.scss",
+  "main": "dist/_math.scss",
   "repository": {
     "type": "git",
     "url": "git://github.com/terkel/mathsass.git"
