@@ -135,7 +135,7 @@ Fittext:
   :homepage: http://www.bookcasey.com/fittext/
 Flint:
   :gem: flint-gs
-  :version: 1.6.5
+  :version: 1.7.1
   :import:
   - flint
   :fingerprint: flint

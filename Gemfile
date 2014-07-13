@@ -57,7 +57,7 @@ group :application do
   # gem 'singularity-golden-grid'
   gem 'compass-placeholders'
   gem 'true'
-  gem 'SassyLists'
+  gem 'SassyLists', '2.2.1'
   gem 'sassy-maps'
   gem 'bitters-compass'
   gem 'ceaser-easing'
