@@ -47,7 +47,7 @@ Bourbon:
   :homepage: https://github.com/jedfoster/bourbon-compass
 Breakpoint:
   :gem: breakpoint
-  :version: 2.4.6
+  :version: 2.5.0
   :import:
   - breakpoint
   :fingerprint: breakpoint
@@ -91,7 +91,7 @@ Color Schemer:
   :homepage: https://github.com/scottkellum/color-schemer
 Compass:
   :gem: compass
-  :version: 1.0.0.rc.1
+  :version: 1.0.0
   :import:
   - compass
   :fingerprint: (compass|compass/*)
@@ -135,7 +135,7 @@ Fittext:
   :homepage: http://www.bookcasey.com/fittext/
 Flint:
   :gem: flint-gs
-  :version: 1.9.1
+  :version: 1.11.2
   :import:
   - flint
   :fingerprint: flint
