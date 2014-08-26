@@ -4,8 +4,8 @@ ruby '2.0.0'
 gem 'rack-contrib', :git => 'git://github.com/rack/rack-contrib.git'
 gem 'sinatra'
 gem 'unicorn'
-gem 'sass'
-gem 'compass', "~>1.0.0"
+gem 'sass', "~> 3.3.0"
+gem 'compass', "~> 1.0.0"
 gem 'ffi', "= 1.9.0"
 gem 'sassmeister', :github => 'SassMeister/ruby-compiler'
 #gem 'sassmeister', :path => '../sassmeister-compiler'

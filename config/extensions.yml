@@ -91,7 +91,7 @@ Color Schemer:
   :homepage: https://github.com/scottkellum/color-schemer
 Compass:
   :gem: compass
-  :version: 1.0.0
+  :version: 1.0.1
   :import:
   - compass
   :fingerprint: (compass|compass/*)
@@ -144,7 +144,7 @@ Foundation:
   :bower: zurb/bower-foundation
   :paths:
   - foundation/scss
-  :version: 5.3.3
+  :version: 5.4.0
   :import:
   - foundation
   :fingerprint: foundation*
@@ -347,7 +347,7 @@ Scut:
   :homepage: http://davidtheclark.github.io/scut/
 Singularity Extras:
   :gem: singularity-extras
-  :version: 1.0.0.alpha.3
+  :version: 1.0.0
   :import:
   - singularitygs
   - singularity-extras
@@ -355,7 +355,7 @@ Singularity Extras:
   :homepage: http://singularity.gs
 Singularity.gs:
   :gem: singularitygs
-  :version: 1.2.0.rc.6
+  :version: 1.4.0
   :import:
   - singularitygs
   :fingerprint: singularitygs
@@ -384,7 +384,7 @@ Susy:
   :homepage: http://susy.oddbird.net/
 Toolkit:
   :gem: toolkit
-  :version: 2.5.2
+  :version: 2.6.0
   :import:
   - toolkit
   :fingerprint: toolkit
