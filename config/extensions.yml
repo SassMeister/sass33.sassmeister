@@ -360,6 +360,15 @@ Singularity Extras:
   - singularity-extras
   :fingerprint: singularity-extras
   :homepage: http://singularity.gs
+Singularity Quick Spanner:
+  :gem: singularity-quick-spanner
+  :version: 0.1.3
+  :import:
+  - singularitygs
+  - singularity-quick-spanner
+  - breakpoint-slicer
+  :fingerprint: singularity-quick-spanner
+  :homepage: https://github.com/lolmaus/singularity-quick-spanner
 Singularity.gs:
   :gem: singularitygs
   :version: 1.4.0
