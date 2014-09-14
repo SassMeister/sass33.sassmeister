@@ -82,6 +82,13 @@ Ceasar Easing:
   - ceaser-easing
   :fingerprint: ceaser-easing
   :homepage: https://github.com/jhardy/compass-ceaser-easing
+Color Hacker:
+  :gem: color-hacker
+  :version: 1.0.0
+  :import:
+  - color-hacker
+  :fingerprint: color-hacker
+  :homepage: http://github.com/imathis/color-hacker
 Color Schemer:
   :gem: color-schemer
   :version: 0.2.8
