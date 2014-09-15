@@ -1,3 +1,10 @@
+'Sass Color Helpers':
+  :bower: sass-color-helpers
+  :import:
+    - color-helpers
+  :fingerprint: color-helpers
+  :paths:
+    - sass-color-helpers/stylesheets
 UtilityBelt:
   :bower: UtilityBelt
   :import:
