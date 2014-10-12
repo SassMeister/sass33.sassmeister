@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/SassMeister/ruby-compiler.git
-  revision: ff3c44c058b1fb5c2a02a75009cee10164d46b84
+  revision: 383fc7adcaa1617582bf353cb137ce14aacef0ed
   specs:
     sassmeister (0.0.1)
       dalli (~> 2.6.4)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/rack/rack-contrib.git
-  revision: 5c12ace4ba2b9e4802e4d948a8ee0114da18760b
+  revision: 1b11346d729efd88b274cd7f704e0bca9eb3de7a
   specs:
     rack-contrib (1.2.0)
       rack (>= 0.9.1)
@@ -22,13 +22,13 @@ GEM
       sass (>= 3.2.0)
     SassyBitwise (1.1.2)
       sass (>= 3.3)
-    SassyCast (1.0.0)
+    SassyCast (1.1.0)
     SassyJSON (1.1.8)
     SassyLists (2.2.1)
       sass (~> 3.3)
     SassyMatrix (1.0.1)
     SassySort (0.0.1)
-    SassyStrings (1.0.0)
+    SassyStrings (1.1.2)
       compass (>= 1.0.0.alpha.18)
       sass (>= 3.3)
     base.sass (1.5.0)
@@ -50,7 +50,7 @@ GEM
       breakpoint (>= 2.0.1)
       compass (>= 0.12.2)
       sass (>= 3.2.1)
-    breakup (1.0.0)
+    breakup (1.0.2)
       compass (>= 0.12.2)
       sass (>= 3.2.0)
     ceaser-easing (0.7)
@@ -93,7 +93,7 @@ GEM
     ffi (1.9.0)
     fittext (0.0.5)
       compass (>= 0.10.0.rc3)
-    flint-gs (1.12.0)
+    flint-gs (2.0.0)
       sass (~> 3.3)
     grid-coordinates (1.2.0)
       compass (>= 0.11.5)
@@ -115,7 +115,7 @@ GEM
       bourbon-compass (>= 3.1.3)
       compass (>= 0.11)
       sass (>= 3.3)
-    newrelic_rpm (3.9.4.245)
+    newrelic_rpm (3.9.5.251)
     normalize-scss (3.0.1)
       compass-core (~> 1.0, >= 1.0.0)
       sass (~> 3.3, >= 3.3.0)

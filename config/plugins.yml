@@ -1,3 +1,17 @@
+Sassy-Gridlover:
+  :bower: sassy-gridlover
+  :import: 
+    - sassy-gridlover
+  :fingerprint: sassy-gridlover
+  :paths:
+    - sassy-gridlover/sassy-gridlover
+Position:
+  :bower: position
+  :import:
+    - position
+  :fingerprint: position
+  :paths:
+    - position/sass
 Sunglass:
   :bower: sunglass
   :import:
@@ -163,7 +177,7 @@ Flint:
     - flint
   :fingerprint: flint
 Foundation:
-  :bower: zurb/bower-foundation
+  :bower: foundation
   :import:
     - foundation
   :fingerprint: foundation*
