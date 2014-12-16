@@ -14,14 +14,23 @@ Go play around with the awesome [Gridlover app](http://www.gridlover.net/app/)!
 
 It's so much fun! :D
 
+## Installation
+
+Install **Sassy-Gridlover** via bower
+
+```bash
+$ bower install sassy-gridlover
+```
+or [Download](https://github.com/hiulit/Sassy-Gridlover/archive/master.zip) the repository and include the `sassy-gridlover` folder to your Sass directory.
+
 ## Getting started
 
 **Sassy-Gridlover** consists of 3 configurable variables:
 
 ```scss
-$baseFontSize;
-$baseLineHeight;
-$scaleFactor;
+$sgl-base-font-size;
+$sgl-base-line-height;
+$sgl-scale-factor;
 ```
 
 and 3 mixins:
@@ -32,7 +41,7 @@ and 3 mixins:
 @mixin sassy-gridlover-margins();
 ```
 
-*These are the 3 functionalities of the [Gridlover app](http://www.gridlover.net/app/)* that you (should) have been playing with.
+*These are the 3 functionalities of the [Gridlover app](http://www.gridlover.net/app/) that you (should) have been playing with*.
 
 ## Setup
 
@@ -47,35 +56,35 @@ Change the configurable variables values in `_config.scss` to your liking.
 ### _config.scss
 
 ```scss
-// Scale factor variables.
-// Don't change these variables!
-$minorSecond: 1.067;
-$majorSecond: 1.125;
-$minorThird: 1.2;
-$majorThird: 1.25;
-$perfectFourth: 1.333;
-$augmentedFourth: 1.414;
-$perfectFifth: 1.5;
-$minorSixth: 1.6;
-$goldenSection: 1.618;
-$majorSixth: 1.667;
-$minorSeventh: 1.778;
-$majorSeventh: 1.875;
-$octave: 2;
-$majorTenth: 2.5;
-$majorEleventh: 2.667;
-$majorTwelfth: 3;
-$doubleOctave: 4;
+// Scale factor constants.
+// Don't change them ever!
+$MINOR_SECOND: 1.067;
+$MAJOR_SECOND: 1.125;
+$MINOR_THIRD: 1.2;
+$MAJOR_THIRD: 1.25;
+$PERFECT_FOURTH: 1.333;
+$AUGMENTED_FOURTH: 1.414;
+$PERFECT_FIFTH: 1.5;
+$MINOR_SIXTH: 1.6;
+$GOLDEN_SECTION: 1.618;
+$MAJOR_SIXTH: 1.667;
+$MINOR_SEVENTH: 1.778;
+$MAJOR_SEVENTH: 1.875;
+$OCTAVE: 2;
+$MAJOR_TENTH: 2.5;
+$MAJOR_ELEVENTH: 2.667;
+$MAJOR_TWELFTH: 3;
+$DOUBLE_OCTAVE: 4;
 
 // Default font size.
-// Don't change this variable!
-$defaultFontSize: 16;
+// Don't change it ever!
+$SGL_DEFAULT_FONT_SIZE: 16;
 
 // Configurable variables.
 // Ok... You can change these variables! :D
-$baseFontSize: 18;
-$baseLineHeight: 1.2;
-$scaleFactor: $goldenSection;
+$sgl-base-font-size: 18 !default;
+$sgl-base-line-height: 1.2 !default;
+$sgl-scale-factor: $GOLDEN-SECTION !default;
 ```
 
 ## Mixins
@@ -86,15 +95,15 @@ By default, all the mixins will only output `px`. But you can also choose to out
 
 To use in `<body>`.
 
-Outputs `font-size`and `line-height`.
+Outputs `font-size` and `line-height`.
 
 ```scss
-@mixin sassy-gridlover-body($fontSize: $baseFontSize, $rem: false)
+@mixin sassy-gridlover-body($font-size: $sgl-base-font-size, $rem: false)
 ```
 
 Accepts 2 arguments:
 
-* `$fontSize`: Specifies the base font size (without unit, just a number).
+* `$font-size`: Specifies the base font size (without unit, just a number).
 * `$rem`: Outputs rem units if `true` (`false` by default).
 
 ### Sassy-Gridlover heading
@@ -138,7 +147,7 @@ Accepts 1 argument:
 @import "sassy-gridlover.scss";
 
 body {
-	@include sassy-gridlover-body($baseFontSize, true);
+	@include sassy-gridlover-body($sgl-base-font-size, true);
 }
 
 h1 {
@@ -219,6 +228,25 @@ p, ul, ol, pre, table, blockquote {
 
 * Support em. There's a [branch](https://github.com/hiulit/Sassy-Gridlover/tree/em-support) for that matter.
 
+## Changelog
+
+### 1.1.0 (October 20th 2014)
+
+* Added [SassDoc](http://sassdoc.com/) documentation [#6](https://github.com/hiulit/Sassy-Gridlover/issues/6).
+* Applied naming conventions to constants [#5](https://github.com/hiulit/Sassy-Gridlover/issues/5).
+* Added `pow()` function for [Compass](http://compass-style.org/reference/compass/helpers/math/), [Sassy-math](https://github.com/Team-Sass/Sassy-math]), etc. [#4](https://github.com/hiulit/Sassy-Gridlover/issues/4)
+* Changed strings for lengths [#3](https://github.com/hiulit/Sassy-Gridlover/issues/3)
+* Added `!default` to configurable variables [#2](https://github.com/hiulit/Sassy-Gridlover/issues/2)
+
+### 1.0.0 (October 6th 2014)
+
+* Released stable version.
+* Added bower installation support.
+
+### 0.1.0 (September 2nd 2014)
+
+* Initial commit.
+
 ## Inspiration and alternatives
 
 * [Gridlover app](http://www.gridlover.net/app/) - The tool to establish a typographic system with modular scale and vertical rhythm.
@@ -231,6 +259,8 @@ Thanks to:
 
 * [Gridlover app](http://www.gridlover.net/app/) - Created by [Tuomas Jomppanen](http://twitter.com/tuomasj) & [Ville Vanninen](http://twitter.com/sakamies).
 * [Sassy-math](https://github.com/Team-Sass/Sassy-math) [&copy; 2012](https://github.com/Team-Sass/Sassy-math#license) - For the `@function exponent()`. Created by [Sam Richard](https://github.com/Snugug), [Mario Valencia](https://github.com/sultancillo) and [Scott Kellum](https://github.com/scottkellum)
+* Marc Mintel ([@marcmintel](https://twitter.com/marcmintel)) for his amazing article on how to [Write Sass plugins like a pro](https://medium.com/@marcmintel/write-sass-plugins-like-a-pro-c765ecf3af27).
+* Hugo Giraudel ([@hugogiraudel](hugogiraudel)) for helping with issues and [SassDoc](http://sassdoc.com/).
 
 ## Unlicense
 

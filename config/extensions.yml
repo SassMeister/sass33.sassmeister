@@ -10,7 +10,7 @@ Ark:
   :homepage: https://github.com/drewbolles/ark
 Base.Sass:
   :gem: base.sass
-  :version: 1.5.0
+  :version: 1.6.0
   :import:
   - base.sass/+
   :fingerprint: base.sass
@@ -33,7 +33,7 @@ Blend Modes:
   :homepage: https://github.com/heygrady/scss-blend-modes
 Bootstrap Sass:
   :gem: bootstrap-sass
-  :version: 3.2.0.2
+  :version: 3.3.1.0
   :import:
   - bootstrap
   :fingerprint: (bootstrap|bootstrap/*)
@@ -54,7 +54,7 @@ Breakpoint:
   :homepage: https://github.com/Team-Sass/breakpoint
 Breakpoint Slicer:
   :gem: breakpoint-slicer
-  :version: 1.3.4
+  :version: 1.3.5
   :import:
   - breakpoint-slicer
   :fingerprint: breakpoint-slicer
@@ -70,7 +70,7 @@ CSShake:
   :bower: csshake
   :paths:
   - csshake/sass
-  :version: 44efe8f94a
+  :version: e0f0bc533b
   :import:
   - csshake
   :fingerprint: csshake
@@ -151,7 +151,7 @@ Foundation:
   :bower: foundation
   :paths:
   - foundation/scss
-  :version: 5.4.6
+  :version: 5.5.0
   :import:
   - foundation
   :fingerprint: foundation*
@@ -219,7 +219,7 @@ Neat:
   :homepage: https://github.com/jedfoster/neat-compass
 Normalize SCSS:
   :gem: normalize-scss
-  :version: 3.0.1
+  :version: 3.0.2
   :import:
   - normalize-scss
   :fingerprint: normalize-scss
@@ -235,7 +235,7 @@ Position:
   :bower: position
   :paths:
   - position/sass
-  :version: 0.2.5
+  :version: 0.2.14
   :import:
   - position
   :fingerprint: position
@@ -318,7 +318,7 @@ Sassy-Gridlover:
   :bower: sassy-gridlover
   :paths:
   - sassy-gridlover/sassy-gridlover
-  :version: 1.0.0
+  :version: 1.1.0
   :import:
   - sassy-gridlover
   :fingerprint: sassy-gridlover
@@ -461,7 +461,7 @@ Typesettings:
   :bower: typesettings
   :paths:
   - typesettings/
-  :version: 2.0.1
+  :version: 2.3.1
   :import:
   - typesettings
   :fingerprint: typesettings

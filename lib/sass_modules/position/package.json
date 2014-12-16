@@ -1,6 +1,7 @@
 {
   "name": "Position",
-  "version": "0.2.5",
+  "title": "Position",
+  "version": "0.2.14",
   "description": "Mixins for setting an elements position and offsets",
   "main": "dist/_position.scss",
   "directories": {
@@ -17,7 +18,9 @@
     "grunt-contrib-sass": "^0.8.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-open": "^0.2.3",
-    "grunt-sassdoc": "^1.0.3"
+    "grunt-sassdoc": "^1.0.3",
+    "grunt-shell": "^1.1.1",
+    "load-grunt-tasks": "^0.6.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
