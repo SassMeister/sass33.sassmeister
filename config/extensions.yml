@@ -323,6 +323,13 @@ Sassy-Gridlover:
   - sassy-gridlover
   :fingerprint: sassy-gridlover
   :homepage: https://github.com/hiulit/Sassy-Gridlover
+Sassy-Math:
+  :gem: sassy-math
+  :version: 1.5.1
+  :import:
+  - math
+  :fingerprint: math
+  :homepage: https://github.com/scottkellum/Sassy-math
 SassyBitwise:
   :gem: SassyBitwise
   :version: 1.1.2

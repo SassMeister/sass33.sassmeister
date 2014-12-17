@@ -158,6 +158,8 @@ GEM
       compass (>= 0.12.2)
     sassy-maps (0.4.0)
       sass (~> 3.3)
+    sassy-math (1.5.1)
+      compass (>= 0.11)
     sassy-text-shadow (0.0.4)
       compass (>= 0.11.5)
     scut (1.0.1)
@@ -254,6 +256,7 @@ DEPENDENCIES
   sassmeister!
   sassy-buttons
   sassy-maps
+  sassy-math
   sassy-text-shadow
   scut
   sinatra

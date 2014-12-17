@@ -30,6 +30,7 @@ group :production do
 end
 
 group :application do
+  gem 'sassy-math'
   gem 'singularity-quick-spanner'
   gem 'color-hacker'
   gem 'SassyBitwise'
