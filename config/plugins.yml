@@ -1,11 +1,74 @@
+'Sassy-validation':
+  :bower: sassy-validation
+  :fingerprint: sassy-validation
+  :imports:
+    - sassy-validation
+  :paths:
+    - sassy-validation/stylesheets
+sass-mq:
+  :bower: sass-mq
+  :fingerprint: mq
+  :imports:
+    - mq
+  :paths:
+    - sass-mq
+Position:
+  :bower: position
+  :fingerprint: position
+  :imports:
+    - position
+  :paths:
+    - position/sass
+sass-maps-plus:
+  :bower: sass-maps-plus
+  :fingerprint: sass-maps-plus
+  :imports:
+    - sass-maps-plus
+  :paths:
+    - sass-maps-plus
+'Include Media':
+  :bower: include-media
+  :fingerprint: include-media
+  :imports:
+    - 'include-media'
+  :paths:
+    - include-media/dist
+ColorMeSass:
+  :bower: color-me-sass
+  :fingerprint: color-me-sass
+  :imports:
+    - color-me-sass
+  :paths:
+    - color-me-sass
+Jeet:
+  :bower: jeet
+  :fingerprint: jeet
+  :imports:
+    - jeet/index
+  :paths:
+    - jeet/scss
+Box:
+  :bower: box
+  :fingerprint: '^box$'
+  :imports:
+    - box
+  :paths:
+    - box/sass
+Juice:
+  :bower: juice
+  :fingerprint: juice
+  :imports:
+    - juice
+  :paths:
+    - juice/dist
 Sassy-Math:
   :gem: sassy-math
-  :import: 
-    - math
-  :fingerprint: math
+  :import:
+    - sassy-math
+  :fingerprint: sassy-math
 Sassy-Gridlover:
   :bower: sassy-gridlover
-  :import: 
+  :import:
     - sassy-gridlover
   :fingerprint: sassy-gridlover
   :paths:
@@ -120,7 +183,7 @@ Bootstrap Sass:
     - bootstrap
   :fingerprint: (bootstrap|bootstrap/*)
 Bourbon:
-  :gem: bourbon-compass
+  :bower: bourbon
   :import:
     - bourbon/bourbon
   :fingerprint: (bourbon|bourbon/*)
@@ -349,10 +412,12 @@ Toolkit:
     - toolkit
   :fingerprint: toolkit
 'True':
-  :gem: 'true'
+  :bower: 'true'
   :import:
     - 'true'
   :fingerprint: 'true'
+  :paths:
+    - true/sass
 YIQ Color Contrast:
   :gem: compass-yiq-color-contrast
   :import:
@@ -363,3 +428,4 @@ Zen Grids:
   :import:
     - zen
   :fingerprint: (zen|zen-grids)
+
